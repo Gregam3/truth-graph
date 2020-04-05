@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": 100,
+      "content": {
+        "definitions": [],
+        "reasoning": "",
+        "dependencies": [],
+        "reasoningForDependents": "Truth as a concept exists",
+        "certainty": 0.7
+      }
+    },
+    {
+      "id": 101,
+      "content": {
+        "definitions": [],
+        "reasoning": "Cartesian deceiver argument",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.95
+      }
+    },
+    {
+      "id": 102,
+      "content": {
+        "definitions": [],
+        "reasoning": "Even if one cannot know something for sure, they can believe it is more likely than an alternative. i.e. I don't know that the sun will rise tomorrow for sure, but I believe it is more likely than it will not.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.95
+      }
+    },
+    {
+      "id": 103,
+      "content": {
+        "definitions": [],
+        "reasoning": "If one does not act based on their perceived truth values they have nothing to act upon other than their instincts.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.95
+      }
+    },
+    {
+      "id": 104,
+      "content": {
+        "definitions": [],
+        "reasoning": "Humans cannot rid themselves of their biases even if they are aware. Therefore these must be taken into account when considering human reason.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.6
+      }
+    },
+    {
+      "id": 105,
+      "content": {
+        "definitions": [],
+        "reasoning": "If one wants to make money and one believes that the stock market has a 100% chance to double tomorrow, one should invest all of ones money. But if they believe there is only a 75% chance, they should invest more cautiously.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.6
+      }
+    },
+    {
+      "id": 106,
+      "content": {
+        "definitions": [],
+        "reasoning": "If one does not wish to believe something (consciously & subconsciously), but still does it is seen to have a greater truth value. As in most of these cases the brain will try to rationalise an alternative, if the truth is so powerful that it cannot  be overcome by rationalisations then it is regarded to be more likely to be true.\nA desire can also be subconscious, for example if someone believes the world is controlled by a group, they may not think that they want to believe it but subconsciously they want to feel as if things are not their fault and direct their outrage towards said group.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.6
+      }
+    },
+    {
+      "id": 107,
+      "content": {
+        "definitions": [],
+        "reasoning": "One should not believe a truth just because it feels good, one should actively try to disprove their own truths",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.6
+      }
+    }
+  ],
+  "links": [
+    {
+      "items": [100,101]
+    },
+    {
+      "items": [101,102]
+    },
+    {
+      "items": [102,103]
+    },
+    {
+      "items": [103, 104]
+    },
+    {
+      "items": [103, 105]
+    },
+    {
+      "items": [104, 106]
+    },
+    {
+      "items": [104, 107]
+    }
+  ]
+}
