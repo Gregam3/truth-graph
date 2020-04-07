@@ -8,14 +8,20 @@ import data from "./graph-data";
 const NODE_NAME_OFFSET = 100;
 
 let nodeNames = {
+    99: "Nothing can be assumed to be true",
     100: "Absolute truth exists",
     101: "Absolute truth is not accessible to humans",
     102: "Truth values can be ascribed without certainty",
     103: "One should act based on perceived truth values",
     104: "All perceived truth values are subject to human biases",
+    109: "All perceived truth values are subject to society's influence",
     105: "Truth value strength correlates to action commitment",
-    106: "Inconvenient truths are more valuable",
-    107: "Truths should be attacked"
+    106: "Inconvenient truths have greater truth values",
+    107: "Personal truths should be attacked",
+    108: "A truth is dependent on its parents for certainty",
+    110: "Some mental states are preferable to me",
+    111: "I should attempt to maximise preferable mental states",
+    112: "I should stop at nothing to achieve preferable mental states"
 };
 
 function addNamesToGraph(data) {
@@ -61,7 +67,8 @@ const nodeConfig = {
         highlightColor: "lightblue",
     },
     d3: {
-        linkLength: 800
+        linkLength: 1200,
+        gravity: -600
     }
 };
 

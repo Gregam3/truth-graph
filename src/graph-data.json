@@ -4,7 +4,7 @@
       "id": 100,
       "content": {
         "definitions": [],
-        "reasoning": "",
+        "reasoning": "I assume that objective truth in some form does exist due to existing ideas. Things can be tautologically true. A chair is a chair, this is a truth of language. However meaningful truths may not necessarily be definable through something like language or mathematics. I believe all of these truths are results of tautology. However a statement such as 'Something Exists' could be seen to be provably true or false if one was omniscient",
         "dependencies": [],
         "reasoningForDependents": "Truth as a concept exists",
         "certainty": 0.7
@@ -67,7 +67,7 @@
         "reasoning": "If one does not wish to believe something (consciously & subconsciously), but still does it is seen to have a greater truth value. As in most of these cases the brain will try to rationalise an alternative, if the truth is so powerful that it cannot  be overcome by rationalisations then it is regarded to be more likely to be true.\nA desire can also be subconscious, for example if someone believes the world is controlled by a group, they may not think that they want to believe it but subconsciously they want to feel as if things are not their fault and direct their outrage towards said group.",
         "dependencies": [],
         "reasoningForDependents": "",
-        "certainty": 0.6
+        "certainty": 0.75
       }
     },
     {
@@ -77,11 +77,74 @@
         "reasoning": "One should not believe a truth just because it feels good, one should actively try to disprove their own truths",
         "dependencies": [],
         "reasoningForDependents": "",
-        "certainty": 0.6
+        "certainty": 0.65
+      }
+    },
+    {
+      "id": 108,
+      "content": {
+        "definitions": [],
+        "reasoning": "If position A provides all the evidence for position B, one cannot  be more sure of position B than position A. And if position C depends on B which depends on A, then the uncertainty of A & B is cumulative",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.65
+      }
+    },
+    {
+      "id": 109,
+      "content": {
+        "definitions": [],
+        "reasoning": "One can never free themselves fully from the effect of society's influence on their opinions",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.4
+      }
+    },
+    {
+      "id": 110,
+      "content": {
+        "definitions": [],
+        "reasoning": "I have observed that some states such as happiness, are preferable to me over other states such as sadness",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.55
+      }
+    },
+    {
+      "id": 111,
+      "content": {
+        "definitions": [],
+        "reasoning": "If I prefer to be happy over sad, it only makes sense to attempt to maximise time and intensity of preferred mental states",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.55
+      }
+    },
+    {
+      "id": 99,
+      "content": {
+        "definitions": [],
+        "reasoning": "If something is to be considered true, it must receive evidence from another argument. Except for this, rationally this is assumed to be true as it is a negative. It is a case of something is not true by default, this is an assumption.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.85
+      }
+    },
+    {
+      "id": 112,
+      "content": {
+        "definitions": [],
+        "reasoning": "As previous stated, nothing is assumed to be true. This includes morality, therefore no action is off limits in terms of securing my own happiness.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.85
       }
     }
   ],
   "links": [
+    {
+      "items": [99, 100]
+    },
     {
       "items": [100,101]
     },
@@ -101,7 +164,25 @@
       "items": [104, 106]
     },
     {
-      "items": [104, 107]
+      "items": [106, 107]
+    },
+    {
+      "items": [102, 108]
+    },
+    {
+      "items": [103, 109]
+    },
+    {
+      "items": [102, 110]
+    },
+    {
+      "items": [110, 111]
+    },
+    {
+      "items": [103, 111]
+    },
+    {
+      "items": [111,112]
     }
   ]
 }
