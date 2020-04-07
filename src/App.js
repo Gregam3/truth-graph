@@ -20,8 +20,12 @@ let nodeNames = {
     107: "Personal truths should be attacked",
     108: "A truth is dependent on its parents for certainty",
     110: "Some mental states are preferable to me",
-    111: "I should attempt to maximise preferable mental states",
-    112: "I should stop at nothing to achieve preferable mental states"
+    111: "I should attempt to maximise my preferable mental states",
+    112: "I should stop at nothing to achieve preferable mental states",
+    113: "An empathic response produces negative mental state if I hurt another",
+    114: "My experience of mental states matters to me",
+    115: "Transitive effects are as meaningful as direct effects (if known)",
+    116: "Behavioural Position: Veganism"
 };
 
 function addNamesToGraph(data) {
@@ -39,7 +43,7 @@ function addNamesToGraph(data) {
         link.source = makeNodeName(link.items[0]);
         link.target = makeNodeName(link.items[1]);
 
-        graphData.nodes[target - NODE_NAME_OFFSET].parent =  graphData.nodes[source - NODE_NAME_OFFSET];
+        graphData.nodes[target - NODE_NAME_OFFSET].parent = graphData.nodes[source - NODE_NAME_OFFSET];
         return link;
     });
 
@@ -68,7 +72,7 @@ const nodeConfig = {
     },
     d3: {
         linkLength: 1200,
-        gravity: -600
+        gravity: -2200
     }
 };
 

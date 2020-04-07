@@ -139,6 +139,46 @@
         "reasoningForDependents": "",
         "certainty": 0.85
       }
+    },
+    {
+      "id": 113,
+      "content": {
+        "definitions": [],
+        "reasoning": "",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.85
+      }
+    },
+    {
+      "id": 114,
+      "content": {
+        "definitions": [],
+        "reasoning": "I can feel different mental states and these shape my reality, these cannot be seen as absolute truths but I believe it is more likely that my experience of that state is genuine than a deception, based on all the evidence available to me.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.85
+      }
+    },
+    {
+      "id": 115,
+      "content": {
+        "definitions": [],
+        "reasoning": "If rock A is pushed down a hill and it causes rock B to hit rock C, rock A is equally as responsible for hitting rock C as rock B. It is believed that the transitive element is irrelevant.",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.85
+      }
+    },
+    {
+      "id": 116,
+      "content": {
+        "definitions": [],
+        "reasoning": "",
+        "dependencies": [],
+        "reasoningForDependents": "",
+        "certainty": 0.7
+      }
     }
   ],
   "links": [
@@ -164,16 +204,13 @@
       "items": [104, 106]
     },
     {
-      "items": [106, 107]
+      "items": [104, 107]
     },
     {
       "items": [102, 108]
     },
     {
       "items": [103, 109]
-    },
-    {
-      "items": [102, 110]
     },
     {
       "items": [110, 111]
@@ -183,6 +220,27 @@
     },
     {
       "items": [111,112]
+    },
+    {
+      "items": [99,112]
+    },
+    {
+      "items": [114,110]
+    },
+    {
+      "items": [104,114]
+    },
+    {
+      "items": [103, 115]
+    },
+    {
+      "items": [115, 116]
+    },
+    {
+      "items": [113, 116]
+    },
+    {
+      "items": [111, 113]
     }
   ]
 }
